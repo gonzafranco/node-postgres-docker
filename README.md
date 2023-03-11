@@ -15,6 +15,7 @@
     si te sale algo como esto, termina los procesos de esos puestos (5432 es postgres por defecto  y 8080 es para al pgadmin por el navegador)
             listen tcp4 0.0.0.0:5432: bind: address already in use
             listen tcp4 0.0.0.0:8080: bind: address already in use
+            
 
 # abrir el navegador y pegar la siguiente url
    
