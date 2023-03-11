@@ -10,7 +10,8 @@
 # abrir terminal en el proyecto y tirar lo siguiente
     docker build -t node-docker .
     docker-compose up -d
-    ## utilizar sudo si hay problemas de autentificacion
+    
+    utilizar sudo si hay problemas de autentificacion
 
     si te sale algo como esto, termina los procesos de esos puestos (5432 es postgres por defecto  y 8080 es para al pgadmin por el navegador)
             listen tcp4 0.0.0.0:5432: bind: address already in use
